@@ -8,12 +8,14 @@ The pack includes the general Noto Sans font and Noto Sans fonts for the followi
 - Korean
 - Simplified Chinese
 
+<!-- separator -->
 
 - Tamil
 - Telugu
 - Malayalam
 - Kannada
 
+<!-- separator -->
 
 - Devanagari
 - Bengali
@@ -21,6 +23,7 @@ The pack includes the general Noto Sans font and Noto Sans fonts for the followi
 - Oriya
 - Gurmukhi
 
+<!-- separator -->
 
 - Arabic
 
