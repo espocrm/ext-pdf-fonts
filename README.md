@@ -276,7 +276,7 @@ If you have chosen No and want to switch to ES6 later, then:
     {
         "scriptList": [
             "__APPEND__",
-            "client/custom/modules/dompdf-fonts/lib/init.js"
+            "client/custom/modules/pdf-fonts/lib/init.js"
         ]
     }
     ```
@@ -300,7 +300,7 @@ Add the library module path to `src/files/custom/Espo/Modules/PdfFonts/Resources
 ```json
 {
     "some-lib": {
-        "path": "client/custom/modules/dompdf-fonts/lib/some-lib.js"
+        "path": "client/custom/modules/pdf-fonts/lib/some-lib.js"
     }
 }
 ```

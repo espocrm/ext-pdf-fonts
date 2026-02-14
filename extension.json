@@ -3,7 +3,7 @@
     "name": "PDF Fonts",
     "description": "Font pack for Dompdf engine.",
     "author": "EspoCRM",
-    "bundled": true,
+    "bundled": false,
     "acceptableVersions": [
         ">=9.4.0"
     ],
