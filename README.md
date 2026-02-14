@@ -1,7 +1,39 @@
-# Template repository for EspoCRM extensions
+# Font pack for PDF in EspoCRM
 
-Create a repository for your extension from this template.
+Compatible with the Dompdf PDF engine. Expands support for international character sets.
 
+The pack includes the general Noto Sans font and Noto Sans fonts for the following scripts:
+
+- Japanese
+- Korean
+- Simplified Chinese
+
+
+- Tamil
+- Telugu
+- Malayalam
+- Kannada
+
+
+- Devanagari
+- Bengali
+- Gujarati
+- Oriya
+- Gurmukhi
+
+
+- Arabic
+
+
+## Installation and usage
+
+1. Download the extension package from releases.
+2. Install in EspoCRM at Administration > Extensions.
+3. Choose the needed font in a PDF template.
+
+---
+
+Everything below is for developers.
 
 ## Configuration
 
