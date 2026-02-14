@@ -7,7 +7,7 @@
         "host": "localhost",
         "port": null,
         "charset": "utf8mb4",
-        "dbname": "ext-{@nameHyphen}",
+        "dbname": "ext-dompdf-fonts",
         "user": "root",
         "password": ""
     },
@@ -15,7 +15,7 @@
         "language": "en_US",
         "defaultOwner": "www-data",
         "defaultGroup": "www-data",
-        "siteUrl": "http://localhost/ext-{@nameHyphen}/site",
+        "siteUrl": "http://localhost/ext-dompdf-fonts/site",
         "adminUsername": "admin",
         "adminPassword": "1"
     }

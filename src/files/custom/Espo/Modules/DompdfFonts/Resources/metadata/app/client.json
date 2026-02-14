@@ -1,0 +1,6 @@
+{
+  "scriptList": [
+      "__APPEND__",
+      "client/custom/modules/dompdf-fonts/lib/init.js"
+  ]
+}

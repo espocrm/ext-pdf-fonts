@@ -1,14 +1,14 @@
 {
-    "module": "{@name}",
-    "name": "{@nameLabel}",
-    "description": "{@description}",
-    "author": "{@author}",
-    "bundled": {@bundled},
+    "module": "DompdfFonts",
+    "name": "Dompdf Fonts",
+    "description": "Font pack for Dompdf engine.",
+    "author": "EspoCRM",
+    "bundled": true,
     "acceptableVersions": [
-        ">=9.1.0"
+        ">=9.4.0"
     ],
     "php": [
-        ">=8.2"
+        ">=8.3"
     ],
     "scripts": []
 }
