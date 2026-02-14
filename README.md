@@ -175,7 +175,7 @@ Run composer install for the site:
 Command to run unit tests:
 
 ```
-(npm run sync; cd site; vendor/bin/phpunit tests/unit/Espo/Modules/DompdfFonts)
+(npm run sync; cd site; vendor/bin/phpunit tests/unit/Espo/Modules/PdfFonts)
 ```
 
 or
@@ -211,7 +211,7 @@ return [
 Command to run integration tests:
 
 ```
-(npm run sync; cd site; vendor/bin/phpunit tests/integration/Espo/Modules/DompdfFonts)
+(npm run sync; cd site; vendor/bin/phpunit tests/integration/Espo/Modules/PdfFonts)
 ```
 
 or
@@ -236,7 +236,7 @@ or
 npm run sa
 ```
 
-If your extension contains additional PHP packages, you also need to add `site/custom/Espo/Modules/DompdfFonts/vendor` to the *scanDirectories* section in *phpstan.neon* config.
+If your extension contains additional PHP packages, you also need to add `site/custom/Espo/Modules/PdfFonts/vendor` to the *scanDirectories* section in *phpstan.neon* config.
 
 Note: You can omit *composer-install* command if your extension does not contain PHP packages.
 
@@ -248,8 +248,8 @@ You need to set the following paths to be ignored in your IDE:
 * `site/build`
 * `site/custom/`
 * `site/client/custom/`
-* `site/tests/unit/Espo/Modules/DompdfFonts`
-* `site/tests/integration/Espo/Modules/DompdfFonts`
+* `site/tests/unit/Espo/Modules/PdfFonts`
+* `site/tests/integration/Espo/Modules/PdfFonts`
 
 ### File watcher
 
@@ -270,8 +270,8 @@ The initialization script asks whether you want to use ES6 modules. It's recomme
 If you have chosen No and want to switch to ES6 later, then:
 
 1. Set *bundled* to true in `extension.json`.
-2. Set *bundled* and *jsTranspiled* to true in `src/files/custom/Espo/Modules/DompdfFonts/Resources/module.json`.
-3. Add `src/files/custom/Espo/Modules/DompdfFonts/Resources/metadata/app/client.json`
+2. Set *bundled* and *jsTranspiled* to true in `src/files/custom/Espo/Modules/PdfFonts/Resources/module.json`.
+3. Add `src/files/custom/Espo/Modules/PdfFonts/Resources/metadata/app/client.json`
     ```json
     {
         "scriptList": [
@@ -295,7 +295,7 @@ In `extension.json`, add a command that will bundle the needed library into an A
 }
 ```
 
-Add the library module path to `src/files/custom/Espo/Modules/DompdfFonts/Resources/metadata/app/jsLibs.json`
+Add the library module path to `src/files/custom/Espo/Modules/PdfFonts/Resources/metadata/app/jsLibs.json`
 
 ```json
 {

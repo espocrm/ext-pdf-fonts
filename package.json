@@ -1,5 +1,5 @@
 {
-  "name": "espocrm-ext-dompdf-fonts",
+  "name": "espocrm-ext-pdf-fonts",
   "version": "0.0.1",
   "description": "",
   "scripts": {

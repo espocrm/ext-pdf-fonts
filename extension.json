@@ -1,6 +1,6 @@
 {
-    "module": "DompdfFonts",
-    "name": "Dompdf Fonts",
+    "module": "PdfFonts",
+    "name": "PDF Fonts",
     "description": "Font pack for Dompdf engine.",
     "author": "EspoCRM",
     "bundled": true,

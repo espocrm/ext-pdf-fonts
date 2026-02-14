@@ -1,0 +1,206 @@
+{
+    "Dompdf": {
+        "fontFaceList": [
+            "__APPEND__",
+            "Noto Sans",
+            "Noto Sans Arabic",
+            "Noto Sans Japanese",
+            "Noto Sans Simplified Chinese",
+            "Noto Sans Korean"
+            "Noto Sans Tamil",
+            "Noto Sans Telugu",
+            "Noto Sans Malayalam",
+            "Noto Sans Kannada",
+            "Noto Sans Devanagari",
+            "Noto Sans Bengali",
+            "Noto Sans Gujarati",
+            "Noto Sans Oriya",
+            "Noto Sans Gurmukhi"
+        ],
+        "additionalParams": {
+            "fonts": [
+                {
+                    "family": "Noto Sans",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/NotoSans-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans",
+                    "style": "bold",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/NotoSans-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans",
+                    "style": "italic",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/NotoSans-Italic.ttf"
+                },
+                {
+                    "family": "Noto Sans",
+                    "style": "italic",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/NotoSans-BoldItalic.ttf"
+                },
+                {
+                    "family": "Noto Sans Japanese",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Japanese/NotoSansJP-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Japanese",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Japanese/NotoSansJP-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Simplified Chinese",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/SimplifiedChinese/NotoSansSC-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Simplified Chinese",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/SimplifiedChinese/NotoSansSC-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Tamil",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Tamil/NotoSansTamil-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Tamil",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Tamil/NotoSansTamil-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Kannada",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Kannada/NotoSansKannada-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Kannada",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Kannada/NotoSansKannada-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Telugu",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Telugu/NotoSansTelugu-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Telugu",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Telugu/NotoSansTelugu-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Gujarati",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Gujarati/NotoSansGujarati-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Gujarati",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Gujarati/NotoSansGujarati-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Oriya",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Oriya/NotoSansOriya-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Oriya",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Oriya/NotoSansOriya-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Malayalam",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Malayalam/NotoSansMalayalam-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Malayalam",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Malayalam/NotoSansMalayalam-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Devanagari",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Devanagari/NotoSansDevanagari-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Devanagari",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Devanagari/NotoSansDevanagari-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Gurmukhi",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Gurmukhi/NotoSansGurmukhi-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Gurmukhi",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Gurmukhi/NotoSansGurmukhi-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Arabic",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Arabic/NotoSansArabic-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Arabic",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Arabic/NotoSansArabic-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Bengali",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Bengali/NotoSansBengali-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Bengali",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Bengali/NotoSansBengali-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Korean",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Korean/NotoSansKR-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Korean",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Korean/NotoSansKR-Bold.ttf"
+                }
+            ]
+        }
+    }
+}
+
