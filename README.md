@@ -10,18 +10,18 @@ The pack includes the general Noto Sans font and Noto Sans fonts for the followi
 
 <!-- separator -->
 
-- Tamil
-- Telugu
-- Malayalam
-- Kannada
+- Bengali
+- Devanagari
+- Gujarati
+- Gurmukhi
+- Oriya
 
 <!-- separator -->
 
-- Devanagari
-- Bengali
-- Gujarati
-- Oriya
-- Gurmukhi
+- Kannada
+- Malayalam
+- Tamil
+- Telugu
 
 <!-- separator -->
 
