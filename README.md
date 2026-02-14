@@ -30,7 +30,7 @@ The pack includes the general Noto Sans font and Noto Sans fonts for the followi
 
 ## Installation and usage
 
-1. Download the extension package from releases.
+1. Download the extension package from the [releases](https://github.com/espocrm/ext-pdf-fonts/releases).
 2. Install in EspoCRM at Administration > Extensions.
 3. Choose the needed font in a PDF template.
 
