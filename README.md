@@ -106,16 +106,6 @@ npm run sync
 
 To avoid running this command manually, use a file watcher in your IDE. The configuration for PhpStorm is included in this repository. See below about the file watcher.
 
-### Running after-install script
-
-AfterInstall.php will be applied for EspoCRM instance.
-
-Command:
-
-```
-node build --after-install
-```
-
 ### Extension package building
 
 Command:
@@ -128,53 +118,11 @@ The package will be created in `build` directory.
 
 Note: The version number is taken from `package.json`.
 
-### Installing addition extensions
-
-If your extension requires other extensions, there is a way to install them automatically while building the instance.
-
-Necessary steps:
-
-1. Add the current EspoCRM version to the `config.php`:
-
-```php
-<?php
-return [
-    'version' => '9.0.0',
-];
-
-```
-
-2. Create the `extensions` directory in the root directory of your repository.
-3. Put needed extensions (e.g. `my-extension-1.0.0.zip`) in this directory.
-
-Extensions will be installed automatically after running the command `node build --all` or `node build --install`.
-
 ## Development workflow
 
 1. Do development in `src` dir.
 2. Run `npm run sync`.
 3. Test changes in EspoCRM instance at `site` dir.
-
-
-## Using composer in extension
-
-If your extension requires additional libraries, they can be installed by composer:
-
-1. Create a file `src/files/custom/Espo/Modules/{ModuleName}/composer.json` with your dependencies.
-2. Once you run `node build --all` or `node build --composer-install`, composer dependencies will be automatically installed.
-3. Create a file `src/files/custom/Espo/Modules/{ModuleName}/Resources/autoload.json`.
-
-Note: The extension build will contain only the `vendor` directory without the `composer.json` file.
-
-The `autoload.json` file defines paths for namespaces:
-
-```json
-{
-    "psr-4": {
-        "LibraryNamespace\\": "custom/Espo/Modules/{ModuleName}/vendor/<vendor-name>/<library-name>/path/to/src"
-    }
-}
-```
 
 ## Versioning
 
@@ -187,93 +135,6 @@ npm version patch
 npm version minor
 npm version major
 ```
-
-## Tests
-
-To prepare the Espo instance:
-
-```
-npm run prepare-test
-```
-
-Fetches the instance and runs composer install. To be used for unit tests and static analysis in CI environment. Takes less time than the full installation.
-
-
-### Unit
-
-Run composer install for the site:
-
-```
-(cd site; composer install)
-```
-
-Command to run unit tests:
-
-```
-(npm run sync; cd site; vendor/bin/phpunit tests/unit/Espo/Modules/PdfFonts)
-```
-
-or
-
-```
-npm run unit-tests
-```
-
-### Integration
-
-You need to build a test instance first:
-
-1. `npm run sync`
-2. `(cd site; grunt test)`
-
-You need to create a config file `tests/integration/config.php`:
-
-```php
-<?php
-
-return [
-    'database' => [
-        'driver' => 'pdo_mysql',
-        'host' => 'localhost',
-        'charset' => 'utf8mb4',
-        'dbname' => 'TEST_DB_NAME',
-        'user' => 'YOUR_DB_USER',
-        'password' => 'YOUR_DB_PASSWORD',
-    ],
-];
-```
-
-Command to run integration tests:
-
-```
-(npm run sync; cd site; vendor/bin/phpunit tests/integration/Espo/Modules/PdfFonts)
-```
-
-or
-
-```
-npm run integration-tests
-```
-
-Note that integration tests needs the full Espo installation.
-
-### Static analysis
-
-Command to run:
-
-```
-npm run sync; site/vendor/bin/phpstan
-```
-
-or
-
-```
-npm run sa
-```
-
-If your extension contains additional PHP packages, you also need to add `site/custom/Espo/Modules/PdfFonts/vendor` to the *scanDirectories* section in *phpstan.neon* config.
-
-Note: You can omit *composer-install* command if your extension does not contain PHP packages.
 
 ## Configuring IDE
 
@@ -297,52 +158,6 @@ File watcher parameters for PhpStorm:
 * Working Directory: `$ProjectFileDir$`
 
 Note: The File Watcher configuration for PhpStorm is included in this repository.
-
-## Using ES modules
-
-The initialization script asks whether you want to use ES6 modules. It's recommended to choose "YES".
-
-If you have chosen No and want to switch to ES6 later, then:
-
-1. Set *bundled* to true in `extension.json`.
-2. Set *bundled* and *jsTranspiled* to true in `src/files/custom/Espo/Modules/PdfFonts/Resources/module.json`.
-3. Add `src/files/custom/Espo/Modules/PdfFonts/Resources/metadata/app/client.json`
-    ```json
-    {
-        "scriptList": [
-            "__APPEND__",
-            "client/custom/modules/pdf-fonts/lib/init.js"
-        ]
-    }
-    ```
-
-## Javascript frontend libraries
-
-Install *rollup*.
-
-In `extension.json`, add a command that will bundle the needed library into an AMD module. Example:
-
-```json
-{
-    "scripts": [
-        "npx rollup node_modules/some-lib/build/esm/index.mjs --format amd --file build/assets/lib/some-lib.js --amd.id some-lib"
-    ]
-}
-```
-
-Add the library module path to `src/files/custom/Espo/Modules/PdfFonts/Resources/metadata/app/jsLibs.json`
-
-```json
-{
-    "some-lib": {
-        "path": "client/custom/modules/pdf-fonts/lib/some-lib.js"
-    }
-}
-```
-
-When you build, the library module will be automatically included in the needed location.
-
-Note that you may also need to create *rollup.config.js* to set some additional Rollup parameters that are not supported via CLI usage.
 
 ## Updating tooling libraries
 
