@@ -40,7 +40,7 @@ In a PDF template, you can use multiple fonts by applying the *font-family* CSS 
 the first paragraph will be printed only if the *Noto Sans Tamil* font is set for the template. The second paragraph will be printed
 regardless of the template's font.
 
-```
+```html
 <p>தமிழ்</p>
 <p style="font-family: 'Noto Sans Malayalam';">മലയാളം</p>
 ```
