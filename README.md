@@ -35,6 +35,38 @@ The pack includes the general Noto Sans font and Noto Sans fonts for the followi
 2. Install in EspoCRM at Administration > Extensions.
 3. Choose the needed font in a PDF template.
 
+
+In a PDF template, you can use multiple fonts by applying the *font-family* CSS property inline. In the example below,
+the first paragraph will be printed only if the *Noto Sans Tamil* font is set for the template. The second paragraph will be printed
+regardless of the template's font.
+
+```
+<p>தமிழ்</p>
+<p style="font-family: 'Noto Sans Malayalam';">മലയാളം</p>
+```
+
+This pack includes the following font families:
+
+- Noto Sans
+- Noto Sans Arabic
+- Noto Sans Armenian
+- Noto Sans Bengali
+- Noto Sans Devanagari
+- Noto Sans Georgian
+- Noto Sans Gujarati
+- Noto Sans Gurmukhi
+- Noto Sans Hebrew
+- Noto Sans Japanese
+- Noto Sans Kannada
+- Noto Sans Korean
+- Noto Sans Malayalam
+- Noto Sans Oriya
+- Noto Sans Simplified Chinese
+- Noto Sans Sinhala
+- Noto Sans Tamil
+- Noto Sans Telugu
+- Noto Sans Thai
+
 ---
 
 Everything below is for developers.
