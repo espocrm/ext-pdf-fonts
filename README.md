@@ -13,21 +13,7 @@ This pack includes the following font families:
 - Noto Sans Korean
 - Noto Sans Simplified Chinese
 
-The following fonts are also included, but they are not rendered properly due to
-the Dompdf's [limitation](https://github.com/dompdf/dompdf/issues/2619):
-
-- Noto Sans Arabic
-- Noto Sans Bengali
-- Noto Sans Devanagari
-- Noto Sans Gujarati
-- Noto Sans Gurmukhi
-- Noto Sans Kannada
-- Noto Sans Malayalam
-- Noto Sans Oriya
-- Noto Sans Sinhala
-- Noto Sans Tamil
-- Noto Sans Telugu
-- Noto Sans Thai
+Note that fonts that require re-shaping or re-positioning are [not currently supported](https://github.com/dompdf/dompdf/issues/261) in Dompdf.
 
 ## Installation and usage
 
@@ -35,14 +21,7 @@ the Dompdf's [limitation](https://github.com/dompdf/dompdf/issues/2619):
 2. Install in EspoCRM at Administration > Extensions.
 3. Choose the needed font in a PDF template.
 
-In a PDF template, you can use multiple fonts by applying the *font-family* CSS property inline. In the example below,
-the first paragraph will be printed only if the *Noto Sans Tamil* font is set for the template. The second paragraph will be printed
-regardless of the template's font.
-
-```html
-<p>தமிழ்</p>
-<p style="font-family: 'Noto Sans Malayalam';">മലയാളം</p>
-```
+In a PDF template, you can use multiple fonts by applying the *font-family* CSS property inline.
 
 ---
 
