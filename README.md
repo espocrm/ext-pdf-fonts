@@ -3,34 +3,31 @@
 Compatible with the Dompdf PDF engine. Expands support for international character sets.
 Compatible with EspoCRM v9.4 and greater.
 
-The pack includes the general Noto Sans font and Noto Sans fonts for the following scripts:
+This pack includes the following font families:
 
-- Japanese
-- Korean
-- Simplified Chinese
-- Thai
+- Noto Sans
+- Noto Sans Armenian
+- Noto Sans Devanagari
+- Noto Sans Georgian
+- Noto Sans Hebrew
+- Noto Sans Japanese
+- Noto Sans Korean
+- Noto Sans Simplified Chinese
 
-<!-- separator -->
+The following fonts are also included, but they are not rendered properly due to
+the Dompdf's [limitation](https://github.com/dompdf/dompdf/issues/2619):
 
-- Bengali
-- Devanagari
-- Gujarati
-- Gurmukhi
-- Kannada
-- Malayalam
-- Sinhala
-- Tamil
-- Telugu
-- Oriya
-
-<!-- separator -->
-
-- Arabic
-- Armenian
-- Georgian
-- Hebrew
-
-Note that Dompdf still has some [limitations](https://github.com/dompdf/dompdf/issues/2619) when it comes to printing in Arabic and Brahmic writing systems.
+- Noto Sans Arabic
+- Noto Sans Bengali
+- Noto Sans Gujarati
+- Noto Sans Gurmukhi
+- Noto Sans Kannada
+- Noto Sans Malayalam
+- Noto Sans Oriya
+- Noto Sans Sinhala
+- Noto Sans Tamil
+- Noto Sans Telugu
+- Noto Sans Thai
 
 ## Installation and usage
 
@@ -46,28 +43,6 @@ regardless of the template's font.
 <p>தமிழ்</p>
 <p style="font-family: 'Noto Sans Malayalam';">മലയാളം</p>
 ```
-
-This pack includes the following font families:
-
-- Noto Sans
-- Noto Sans Arabic
-- Noto Sans Armenian
-- Noto Sans Bengali
-- Noto Sans Devanagari
-- Noto Sans Georgian
-- Noto Sans Gujarati
-- Noto Sans Gurmukhi
-- Noto Sans Hebrew
-- Noto Sans Japanese
-- Noto Sans Kannada
-- Noto Sans Korean
-- Noto Sans Malayalam
-- Noto Sans Oriya
-- Noto Sans Simplified Chinese
-- Noto Sans Sinhala
-- Noto Sans Tamil
-- Noto Sans Telugu
-- Noto Sans Thai
 
 ---
 
