@@ -15,15 +15,12 @@ The pack includes the general Noto Sans font and Noto Sans fonts for the followi
 - Devanagari
 - Gujarati
 - Gurmukhi
-- Sinhala
-- Oriya
-
-<!-- separator -->
-
 - Kannada
 - Malayalam
+- Sinhala
 - Tamil
 - Telugu
+- Oriya
 
 <!-- separator -->
 
