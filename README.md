@@ -7,7 +7,6 @@ This pack includes the following font families:
 
 - Noto Sans
 - Noto Sans Armenian
-- Noto Sans Devanagari
 - Noto Sans Georgian
 - Noto Sans Hebrew
 - Noto Sans Japanese
@@ -19,6 +18,7 @@ the Dompdf's [limitation](https://github.com/dompdf/dompdf/issues/2619):
 
 - Noto Sans Arabic
 - Noto Sans Bengali
+- Noto Sans Devanagari
 - Noto Sans Gujarati
 - Noto Sans Gurmukhi
 - Noto Sans Kannada
