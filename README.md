@@ -13,7 +13,7 @@ This pack includes the following font families:
 - Noto Sans Korean
 - Noto Sans Simplified Chinese
 
-Note that fonts that require re-shaping or re-positioning are [not currently supported](https://github.com/dompdf/dompdf/issues/261) in Dompdf.
+Note that fonts that require re-shaping or re-positioning are [not currently supported](https://github.com/dompdf/dompdf/issues/2619) in Dompdf.
 
 ## Installation and usage
 
