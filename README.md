@@ -1,6 +1,7 @@
 # Font pack for PDF in EspoCRM
 
 Compatible with the Dompdf PDF engine. Expands support for international character sets.
+Compatible The with EspoCRM v9.4 and greater.
 
 The pack includes the general Noto Sans font and Noto Sans fonts for the following scripts:
 
