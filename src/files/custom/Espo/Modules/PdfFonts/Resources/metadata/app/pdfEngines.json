@@ -4,6 +4,11 @@
             "__APPEND__",
             "Noto Sans",
             "Noto Sans Arabic",
+            "Noto Sans Armenian",
+            "Noto Sans Georgian",
+            "Noto Sans Hebrew",
+            "Noto Sans Sinhala",
+            "Noto Sans Thai",
             "Noto Sans Japanese",
             "Noto Sans Simplified Chinese",
             "Noto Sans Korean",
@@ -174,6 +179,66 @@
                     "style": "normal",
                     "weight": "bold",
                     "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Arabic/NotoSansArabic-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Armenian",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Armenian/NotoSansArmenian-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Armenian",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Armenian/NotoSansArmenian-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Georgian",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Georgian/NotoSansGeorgian-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Georgian",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Georgian/NotoSansGeorgian-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Hebrew",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Hebrew/NotoSansHebrew-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Hebrew",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Hebrew/NotoSansHebrew-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Sinhala",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Sinhala/NotoSansSinhala-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Sinhala",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Sinhala/NotoSansSinhala-Bold.ttf"
+                },
+                {
+                    "family": "Noto Sans Thai",
+                    "style": "normal",
+                    "weight": "normal",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Thai/NotoSansThai-Regular.ttf"
+                },
+                {
+                    "family": "Noto Sans Thai",
+                    "style": "normal",
+                    "weight": "bold",
+                    "source": "custom/Espo/Modules/PdfFonts/Resources/fonts/NotoSans/Thai/NotoSansThai-Bold.ttf"
                 },
                 {
                     "family": "Noto Sans Bengali",

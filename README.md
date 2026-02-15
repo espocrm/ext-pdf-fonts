@@ -7,6 +7,7 @@ The pack includes the general Noto Sans font and Noto Sans fonts for the followi
 - Japanese
 - Korean
 - Simplified Chinese
+- Thai
 
 <!-- separator -->
 
@@ -14,6 +15,7 @@ The pack includes the general Noto Sans font and Noto Sans fonts for the followi
 - Devanagari
 - Gujarati
 - Gurmukhi
+- Sinhala
 - Oriya
 
 <!-- separator -->
@@ -26,7 +28,9 @@ The pack includes the general Noto Sans font and Noto Sans fonts for the followi
 <!-- separator -->
 
 - Arabic
-
+- Armenian
+- Georgian
+- Hebrew
 
 ## Installation and usage
 
@@ -175,4 +179,3 @@ Or just update everything:
 ```
 npm update
 ```
-
