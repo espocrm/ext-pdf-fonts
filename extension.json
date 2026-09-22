@@ -5,7 +5,7 @@
     "author": "EspoCRM",
     "bundled": false,
     "acceptableVersions": [
-        ">=9.4.0"
+        ">=10.0.0"
     ],
     "php": [
         ">=8.3"
