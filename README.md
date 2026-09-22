@@ -1,7 +1,6 @@
 # Font pack for PDF in EspoCRM
 
 Compatible with the Dompdf PDF engine. Expands support for international character sets.
-Compatible with EspoCRM v9.4 and greater.
 
 This pack includes the following font families:
 
